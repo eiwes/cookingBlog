@@ -1,0 +1,15 @@
+.header-image{
+  background-image: url(img/main4.png);
+  opacity: 1;
+  height:610px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+nav div a{
+	color: white;
+}
