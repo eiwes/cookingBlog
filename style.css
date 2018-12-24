@@ -1,15 +1,239 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav{
+	font-size: 20px;
+	
+}
+
+.collapse{
+	margin-left: 50%;
+}
+nav a{
+	margin-left: 20px;
+	color: white;
+}
+
+nav a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+.navbar.scrolled{
+	background-color: rgba(0,0,0,0.5);
+	transition: background-color 200ms linear;
+}
+
 .header-image{
-  background-image: url(img/main4.png);
-  opacity: 1;
-  height:610px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
   z-index: -1;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  margin: 0px;	
+  
 }
 
-nav div a{
+
+.color-header-image{
+	background-image: url(img/main9.jpg);
+	z-index: 0;
+	margin: 0px;
+	background-color: black.5;background-color: rgba(0,0,0,0.5);
+	background-size: cover;
+	height: 100vh;
+	opacity: 0.65;
+	top: 0;
+  	bottom: 0;
+  	left: 0;
+ 	right: 0;
+}
+
+
+.bg-darkk{
+  background-color: rgba(0,0,0,0);
+}
+
+
+.header-logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 99vh;
+}
+.recepies-image{
+	background-image: url(img/tasteful-image.jpg);
+	z-index: 0;
+	margin: 0px;
+	background-size: cover;
+	opacity: 0.35;
+	height: 60vh;
+	top: 0;
+  	bottom: 0;
+  	left: 0;
+ 	right: 0;
+}
+.recepies-color{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:60vh;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0px;	
+  
+}
+.recepies-logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	z-index: 1;
+}
+.recepies-logo img{
+	margin-top: 5%;
+}
+.about-text p{
+	text-align: center;
+	color: #3e3c3d;
+}
+.about-text h2{
+	text-align: center;
+	color: #3e3c3d;
+}
+.about-text img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	margin-left: 15%;
+	z-index: 1;	
+	margin-top: 0%;
+}
+
+.about-image img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin-top: 14%;
+	margin-left: 15%;	
+}
+
+.about-section{
+	height: 400px;
+}
+
+.menu-discover img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	z-index: 1;
+	margin-left: 15%; 
+	margin-top: 0%;
+}
+
+.menu-discover{
+	text-align: center;
+	color: #3e3c3d;
+}
+.menu-discover h2{
+	text-align: center;
+	color: #3e3c3d;
+}
+.menu-pictures{
+	margin: 20px;
+	margin-top: 0px;
+}
+.allimages{
+	margin-top: 50px;
+}
+
+.blend-color{
+	background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:70vh;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0px;	
+  
+}
+
+.blend-image{
+	background-image: url(img/blend.jpg);
+	z-index: 0;
+	margin: 0px;
+	background-size: cover;
+	opacity: 0.35;
+	height: 70vh;
+	top: 0;
+  	bottom: 0;
+  	left: 0;
+ 	right: 0;
+
+}
+
+.blend-logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	z-index: 1;
+
+}
+.blend-logo img{
+	margin-top: 8%;
+}
+
+.delight-images{
+	margin-right: 140px;
+	margin-top: 17%;
+}
+
+.footer{
+	height: 30vh;
+	background-color: black;
+}
+.all{
+	height: 70vh;
+}
+.footer-text div h3{
 	color: white;
+	margin-top: 5%;
+}
+.under{
+	height: 5vh;
+	background-color: #3e3c3d;
+}
+.address p{
+	color: white;
+	font-size: 12px;
+}
+.address{
+	margin-left: 10%;
+}
+.col-md-6 h3{
+	margin-left: 6%;
+}
+.footer-info{
+	margin-right: 40%;
 }
